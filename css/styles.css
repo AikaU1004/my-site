@@ -2,35 +2,83 @@ body {
     margin-top: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E;
 }
 
 h1 {
     margin-top: 50px;
     margin-bottom: 0;
     font-family: 'Sacramento', cursive;
-    font-size: 5.625rem
+    font-size: 5.625rem;
+    color: #AC7088;
+    line-height: 2;
 }
 
-h2, h3 {
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    margin-top: 0;
+    margin-top: 50px;
     margin-bottom: 50px;
+    color: #DEB6AB;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #ECCCB2;
+    
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #ECCCB2;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 8px;
+    height: 0px;
+    width: 8%;
+}
+
+.profile {
+    width: 30%;
+    margin: 50px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 .profile-img {
-    max-width:100px;
-    max-height:100px;
+    max-width: 200px;
 }
 
 .aws-logo {
-    max-width:90px;
-    max-height:90px;
+    max-width: 30%;
+    float: left;
+    margin-right: 30px;
 }
 
 .terraform-logo {
-    max-width:90px;
-    max-height:90px;
+    max-width:30%;
+    float: right;
+    margin-left: 30px;
 }
 
 .top {
@@ -49,4 +97,39 @@ h2, h3 {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.contact-me {
+    width: 40%;
+    margin: auto;
+}
+
+.btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #ECCCB2;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+  }
+  
+.btn:hover {
+background: #DEB6AB;
+text-decoration: none;
+}
+
+.bottom-container {
+    margin-top: 50px;
+    padding: 50px 0 20px;
+    color: white;
+    background-color: #DEB6AB;
+}
+
+.copyright {
+    font: 0.7rem;    
 }
